@@ -3,10 +3,9 @@ export const environment = {
   staging: false,
   development: true,
   appName: 'Quran Apps Directory (Dev)',
-  appUrl: 'http://localhost:8000',
-  apiUrl: 'https://qad-backend-api-production.up.railway.app/api',
-  apiVersion: 'v1',
-  version: '1.0.1-dev',
+  appUrl: 'https://quran-apps-directory-frontend.pages.dev',
+  apiUrl: '/api',
+  version: '1.0.0-dev',
   analytics: {
     enabled: false,
     trackingId: ''
@@ -21,7 +20,7 @@ export const environment = {
     enabled: false,
     dsn: '',
     tunnel: '',
-    environment: 'development',
+    environment: 'develop',
     tracesSampleRate: 1.0,
     replaysSessionSampleRate: 0,
     replaysOnErrorSampleRate: 0
