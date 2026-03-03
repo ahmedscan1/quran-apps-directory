@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "https://qad-backend-api-production.up.railway.app",
+    "target": "https://qad-backend-api-staging.up.railway.app",
     "secure": true,
     "changeOrigin": true
   }
